@@ -1,0 +1,72 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.glowny {
+display: grid;
+grid-template-columns: 1fr 5fr;
+background-color: rgb(20, 20, 20);
+color: white;
+text-align: center;
+}
+.menu li{
+height: 100vh;
+list-style: none;
+}
+.menu ul {
+overflow: hidden;   
+padding: 0;
+}
+.menu a {
+width: 12vw;
+height: 16.666vh;
+border: white 1px solid;
+display: block;
+color: white;
+text-align: center;
+text-decoration: none;
+display: grid;
+justify-content: center;
+align-content: center; 
+}
+
+.menu a:hover {
+background-color:rgb(160, 160, 160);
+}
+.l img{
+width: 88vw;
+height: 16.4vh;
+}
+.zdjeciagalerii {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+}
+.zdjeciagalerii img {
+width: 26vw;
+height: 27vh;
+}
+.omnie1 {
+display: grid;
+grid-template-columns:1fr 4fr ;
+}
+.omnie2 {
+display: grid;
+grid-template-columns:4fr 1fr ;
+}
+.omnie img {
+width: 20vw;
+height: 25vh;
+}
+.concact {
+text-align: center;
+}
+.zdjhobby img {
+width: 20vw;
+height: 20wh;
+}
+.zdjhobby {
+display: grid;
+justify-content: center;
+}
